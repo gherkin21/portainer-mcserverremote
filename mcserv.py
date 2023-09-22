@@ -35,7 +35,7 @@ def get_container_id(url_, token):
 
     i = 0
     while True:
-        if re.search("itzg/minecraft-server*", json.loads(response.text)[i]['Image']):
+        if re.search(config("image_name"), json.loads(response.text)[i]['Image']):
             return json.loads(response.text)[i]['Id']
         i += 1
 

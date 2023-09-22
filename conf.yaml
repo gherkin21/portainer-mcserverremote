@@ -1,3 +1,4 @@
 "login": "Your_login"
 "pass": "Your_pass"
 "portainer_url": "https://example.com"
+"image_name": "Your_image_name"
